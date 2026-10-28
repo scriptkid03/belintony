@@ -72,6 +72,7 @@ export default function Home() {
                 src='https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=1200&q=80'
                 alt='An elegant gallery interior displaying refined artwork'
                 fill
+                sizes='(min-width: 1280px) 540px, (min-width: 1024px) 42vw, (min-width: 640px) 80vw, 100vw'
                 priority
                 className='object-cover'
               />
@@ -180,7 +181,7 @@ export default function Home() {
             href='/about'
             className={cn(
               buttonVariants({ variant: "outline" }),
-              "inline-flex items-center hidden border-[#d3b680] bg-[#fbf6ef] text-[#1d1a17] hover:bg-[#f0e4cf] sm:inline-flex max-md:hidden",
+              "lg:inline-flex items-center hidden border-[#d3b680] bg-[#fbf6ef] text-[#1d1a17] hover:bg-[#f0e4cf] sm:inline-flex max-md:hidden",
             )}
           >
             Our story

@@ -25,10 +25,16 @@ export const metadata: Metadata = {
     "BELINTONY is a partnership dedicated to buying and selling antiques and valuable paintings.",
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${displayFont.variable} ${bodyFont.variable} h-full antialiased`}>
-      <body className="min-h-full bg-[#f3efe7] text-[#171512]"> 
+    <html
+      lang='en'
+      data-scroll-behavior='smooth'
+      className={`${displayFont.variable} ${bodyFont.variable} h-full antialiased`}
+    >
+      <body className='min-h-full bg-[#f3efe7] text-[#171512]'>
         <SiteShell>{children}</SiteShell>
       </body>
     </html>
