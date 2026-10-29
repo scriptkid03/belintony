@@ -35,7 +35,8 @@ export default function Home() {
             <p className='mt-5 max-w-lg text-base leading-7 text-[#e8dfd2] sm:text-lg'>
               BELINTONY is a partnership devoted to the thoughtful acquisition
               and sale of antiques and valuable paintings, bringing refined
-              taste and enduring value to each collection.
+              taste and enduring value to each collection. We serve collectors
+              in the United States and worldwide.
             </p>
             <div className='mt-8 flex flex-col gap-3 sm:flex-row'>
               <Button

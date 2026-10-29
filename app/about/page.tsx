@@ -6,7 +6,7 @@ import { Separator } from "@/components/ui/separator";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about BELINTONY and the partnership behind its antique and painting business.",
+    "Learn about BELINTONY, a global partnership buying and selling antiques and valuable paintings for collectors in the United States and worldwide.",
 };
 
 export default function AboutPage() {
@@ -23,7 +23,8 @@ export default function AboutPage() {
           BELINTONY is a partnership of two people engaged in buying and selling
           antiques and valuable paintings. Our approach is deliberate, refined,
           and grounded in trust, taste, and an enduring appreciation for objects
-          of significance.
+          of significance. We work with collectors in the United States and
+          worldwide.
         </p>
       </section>
 

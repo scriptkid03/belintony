@@ -12,8 +12,9 @@ export default function SiteFooter() {
             BELINTONY
           </p>
           <p className='mt-2 max-w-md text-sm leading-6 text-[#4d453d]'>
-            Buying and selling antiques and valuable paintings with a refined,
-            considered approach.
+            Serving collectors in the United States and worldwide, buying and
+            selling antiques and valuable paintings with a refined, considered
+            approach.
           </p>
         </div>
 

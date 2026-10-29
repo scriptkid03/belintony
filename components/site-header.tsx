@@ -43,14 +43,22 @@ export function SiteHeader() {
           <span className='inline-flex size-8 items-center justify-center rounded-full border border-[#b99862]/60 bg-[#efe6d5] text-[#5f4a36] shadow-sm'>
             <Sparkles className='size-4' />
           </span>
-          <span className='font-display text-2xl tracking-[0.28em] text-[#181512] uppercase'>
-            BELINTONY
+          <span className='flex flex-col'>
+            <span className='font-display text-2xl tracking-[0.28em] text-[#181512] uppercase'>
+              BELINTONY
+            </span>
+            <span
+              aria-label='Serving the United States and worldwide'
+              className='text-[0.58rem] font-semibold tracking-[0.16em] text-[#675d54] uppercase'
+            >
+              United States · Worldwide
+            </span>
           </span>
         </Link>
 
         <div className='hidden md:flex md:items-center md:justify-center'>
           <NavigationMenu>
-            <NavigationMenuList className='gap-1 rounded-full border border-[#d1c3a7] bg-[#f4efe7]/80 py-1.5 shadow-[0_8px_30px_rgba(28,26,24,0.05)] max-md:mt-2'>
+            <NavigationMenuList className='gap-1 rounded-full border border-[#d1c3a7] bg-[#f4efe7]/80 py-1.5 shadow-[0_8px_30px_rgba(28,26,24,0.05)]'>
               {navItems.map((item) => {
                 const active = isActive(item.href);
 

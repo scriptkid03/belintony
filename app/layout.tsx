@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | BELINTONY",
   },
   description:
-    "BELINTONY is a partnership dedicated to buying and selling antiques and valuable paintings.",
+    "BELINTONY is a global partnership buying and selling antiques and valuable paintings for collectors in the United States and worldwide.",
 };
 
 export default function RootLayout({
