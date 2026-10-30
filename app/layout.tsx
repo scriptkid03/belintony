@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { SiteShell } from "@/components/site-shell";
+import { Analytics } from "@vercel/analytics/next";
 
 const displayFont = Cormorant_Garamond({
   variable: "--font-display",
@@ -35,6 +36,7 @@ export default function RootLayout({
       className={`${displayFont.variable} ${bodyFont.variable} h-full antialiased`}
     >
       <body className='min-h-full bg-[#f3efe7] text-[#171512]'>
+        <Analytics />
         <SiteShell>{children}</SiteShell>
       </body>
     </html>
